@@ -32,6 +32,7 @@ other resources that relate to your language in particular.
 8. How do you write comments in your language?
     1)single line comments: //
     2)muti-line comments: /*  */
+    [6]
                     
 
 [1] Wikipedia contributors. (2021, September 7). PHP. Wikipedia. https://en.wikipedia.org/wiki/PHP
@@ -39,5 +40,5 @@ other resources that relate to your language in particular.
 [3] PHP: What can PHP do? - Manual. (2001–2021). PHP. https://www.php.net/manual/en/intro-whatcando.php
 [4] T. (2021, March 14). Top 15 Best PHP IDE In 2021 - PHP Development Tools [Updated]. Technostacks Infotech. https://technostacks.com/blog/php-development-ides-tools
 [5] Dalisay, M. (2021, July 22). How to Run a PHP Script? Step By Step Guide! CodeOfaNinja. https://codeofaninja.com/2013/06/how-to-run-a-php-script.html
-
+[6] How to Write Comments in PHP. (2001–2021). PHP. https://www.tutorialrepublic.com/faq/how-to-write-comments-in-php.php
 
