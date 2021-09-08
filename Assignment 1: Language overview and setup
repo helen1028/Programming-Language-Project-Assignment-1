@@ -1,0 +1,43 @@
+1. What is the name of your language?
+  My language name is PHP.
+  
+2. When/where was it created, and by whom? Was it written to address a particular problem or
+need?
+  PHP was created by Danish-Canadian programmer Rasmus Lerdof in 1994.[1] PHP is especially suited for web development and can be embedded into HTML.[2]
+
+3. What types of programming is your language primarily used for (ex: web sites, video games,
+mobile devices, parsing, etc.). If your language is multi-purpose, provide some examples of
+different projects it's been used for.
+  PHP is primarily used for web sites, server-side scripting, command line scripting, writing destop applications.[3]
+  
+4. Where will you get information about this language when it's time to start programming in it?
+At the end of your assignment, provide a list of the names of books, website URLs, or any
+other resources that relate to your language in particular.
+  I will get information from:
+                              php.net
+                              https://www.w3schools.com/php/
+                              https://www.udemy.com/course/php-for-complete-beginners-includes-msql-object-oriented/
+                              https://www.codecademy.com/learn/learn-php
+                              https://www.youtube.com/watch?v=OK_JCtrrv-c
+                              
+5. What did you need to do to install the language?
+  I opened Visual Studio, choose the fourth icon on the left menu, search PHP, and install "PHP Intelephense".
+
+6. Does this language come with a recommended programming environment? What is it? If not, how did you pick the one that you'll be using?
+  The best IDEs in 2021 for PHP Programming comprise of PHPStorm, Zend Studio, Sublime Text, PHP Designer.[4]
+
+7. How do you run programs in that language?
+  First create a .php file, enter the code and save it, run the php file by opening a new tab in the browser.[5]
+
+8. How do you write comments in your language?
+    1)single line comments: //
+    2)muti-line comments: /*  */
+                    
+
+[1] Wikipedia contributors. (2021, September 7). PHP. Wikipedia. https://en.wikipedia.org/wiki/PHP
+[2] PHP: What is PHP? - Manual. (2001–2021). PHP. https://www.php.net/manual/en/intro-whatis.php
+[3] PHP: What can PHP do? - Manual. (2001–2021). PHP. https://www.php.net/manual/en/intro-whatcando.php
+[4] T. (2021, March 14). Top 15 Best PHP IDE In 2021 - PHP Development Tools [Updated]. Technostacks Infotech. https://technostacks.com/blog/php-development-ides-tools
+[5] Dalisay, M. (2021, July 22). How to Run a PHP Script? Step By Step Guide! CodeOfaNinja. https://codeofaninja.com/2013/06/how-to-run-a-php-script.html
+
+
