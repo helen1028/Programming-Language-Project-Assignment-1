@@ -1,0 +1,50 @@
+1. What are the naming requirements for variables in your language?
+    1) What about naming conventions? Are they enforced by the compiler/interpreter, or are they just standards in the community?
+        Naming requirements for variables in PHP are [1]:
+          - A variable starts with the $ sign, followed by the name of the variable
+          - A variable name must start with a letter or the underscore character
+          - A variable name cannot start with a number
+          - A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+          - Variable names are case-sensitive ($age and $AGE are two different variables)
+        And PHP is an interpreted language.[2]
+   
+2. Is your language statically or dynamically typed?
+        PHP is dynamically typed language.[3]
+    
+3. Strongly typed or weakly typed?
+        PHP is a weakly typed language.[3]
+        
+4. If you put this line (or something similar) in a program and try to print x, what does it do? If it doesn't compile, why? Is there something you can do to make it compile? x = "5" + 6
+        When I set the variable x to 5 and add 6 to it, the compiled number is 11.
+    
+5. Describe the limitations (or lack thereof) of your programming language as they relate to the coding portion of the assignment (adding ints and floats, storing different types in lists, converting between data types). Are there other restrictions or pitfalls that the documentation mentions that you need to be aware of?
+        Different from the Python naming rules, you need to remember to add "$" before naming variables, and also bring "$" when printing. PHP can print numbers with any number of decimal points, but you must use printf instead of print . 
+        Different commands need to be added in the printf parentheses(for example: printf("%s", $x)) to control the printing of the number after the decimal point.
+        PHP frameworks got to learn to use PHP built-in functionalities to avoid writing additional code. [4]
+    
+6. Are there built-in complex data types that are commonly used in your language? (hint: they’d probably appear fairly early in the documentation if so)    
+    Heredoc structure：
+    When there are complex variables in the Heredoc structure, for example, when the string is defined with double quotes or heredoc structure, the variables in it will be parsed. The notable mark of complex rule grammar is the expression enclosed in curly braces. [5]
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ Citation:
+    [1]“Greycampus.” Variables | PHP | Codelabs, www.greycampus.com/codelabs/php/variables. 
+    [2]nickynicky 3, et al. “Is PHP Compiled or Interpreted?” Stack Overflow, 1 Feb. 1958, stackoverflow.com/questions/1514676/is-php-compiled-or-interpreted. 
+    [3]“What PHP Can Be.” Blog, stitcher.io/blog/what-php-can-be. 
+    [4]“Advantages and Disadvantages of Php.” GeeksforGeeks, 1 Sept. 2021, www.geeksforgeeks.org/advantages-and-disadvantages-of-php/. 
+    [5]“PHP的8 种原始数据类型【基础】.” Segmentfault, segmentfault.com/a/1190000004571177. 
+    
+    
+    
+    
+    
+    
+    
