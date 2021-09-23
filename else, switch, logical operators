@@ -1,0 +1,24 @@
+1.What are the boolean values in your language? (e.g., True and False, true and false, 1, and 0,etc)
+    True and False/true and false
+
+2. What types of conditional statements are available in your language? (if/else, if/then/else, if/elseif/else). Does your language allow for statements other than “if” (for example, Perl has an “unless” statement, which does the opposite of “if”!)
+    Conditional statements in PHP are if, if...else, if...elseif...else, switch. PHP doesn't allow for statements other than "if".
+
+3. Does your language use short-circuit evaluation? Include an example of the shor-circuit logic working or not working (or both, if your language is like Java and supports both!)
+    Yes, PHP use short-circuit evaluation. 
+    $a = 'str';
+    $b = 1;
+    $b >1 ||$a .= 'yes';
+    $b == 1 ||$a .='no';
+    echo $a . PHP_EOL;
+    die
+    [1]
+    
+4. How does your programming language deal with the “dangling else” problem?
+   PHP's solution to "dangling else" is to put the later "if" in the compound statement.
+
+5. If your language supports switch or case statements, do you have to use “break” to get out of them? Can you use “continue” to have all of them evaluated?
+    PHP supports Switch or case statements, you can use "continue", if you want to specify to jump out of the "n" recycle, you can add a number after "continue".
+
+Citation:
+[1]PHP. https://blog.csdn.net/williamswayne/article/details/110820749
