@@ -1,0 +1,33 @@
+1. Does your language include multiple types of loops (while, do/while, for, foreach)? If so, what are they and how do they differ from each other?
+  PHP does include mutiple types of loop. PHP's for loop and while loop are similar to the for loop and while loop in java. They are both for(){},while(){}.
+
+2. What is the syntax for declaring a function in your language?
+  Specify the function name followed by the function keyword.[1]
+
+3. Are there any rules about where the function has to be placed in your code file so that it can run?
+  The PHP function rules require: a valid function name starts with a letter or underscore, followed by any number of letters, numbers or underscores.[2]
+
+4. Does your language support recursive functions?
+  Yes, PHP does support recursive functions.
+
+5. Can functions in your language accept multiple parameters? Can they be of different data types?
+  According to the manual, PHP functions can accept up to 12 parameters.[3]
+
+6. Can functions in your language return multiple values at the same time? How is that implemented? If not, are there ways around that problem? What are they?
+  PHP doesn't support to return multiple values in a function.[4] We can create an array and return the array to return multiple values in PHP.
+
+7. Is your language pass-by reference or value? Check your code against outside sources in case there is anything tricky going on (like in Perl).
+  PHP supports both pass by value and pass by reference.[5]
+
+8. Are there any other aspects of functions in your language that aren't specifically asked about
+here, but that are important to know in order to write one? What are they?
+  PHP function names are not case sensitive, so the F() and f() methods are the same and they all become constructors.
+
+
+
+Citation:
+[1]PHP Tutorial. (2021, July 11). An Essential Guide to PHP Functions By Examples. https://www.phptutorial.net/php-tutorial/php-functions/
+[2]PHP: User-defined functions - Manual. (2021, September 30). PHP. https://www.php.net/manual/en/functions.user-defined.php
+[3]D. (2018, May 28). How many parameters is too many ? Exakat. https://www.exakat.io/en/how-many-parameters-is-too-many/
+[4]GeeksforGeeks. (2021, August 1). How to return multiple values from function in PHP? https://www.geeksforgeeks.org/how-to-return-multiple-values-from-function-in-php/
+[5]Are PHP Variables passed by value or by reference? (2008, August 3). Stack Overflow. https://stackoverflow.com/questions/879/are-php-variables-passed-by-value-or-by-reference
